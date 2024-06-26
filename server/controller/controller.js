@@ -20,6 +20,7 @@ export const addMessage = async (req, res) => {
     }
 };
 
+
 export const getMessage = async (req, res) => {
   try {
     const message = await contract.getMessage();
